@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Latihan Form</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend> Buat Form</legend>
+        <h1>Latihan Form</h1>
+        <form action="https://www.google.com/" method="POST">
+            <label for="nama">Nama :</label>
+            <input id="nama" type="text" />
+            <br>
+            <label for="umur">Masukan umur :</label>
+            <input for="umur" type="number" min="1" max="10" />
+            <!-- select Form -->
+            <p><b>Warna Favoritmu?</b></p>
+            <select>
+                <option>Merah</option>
+                <option>Kuning</option>
+                <option selected>Hijau</option>
+            </select> 
+
+            <h4>pemrograman kesukaanmu?</h4> 
+            <input type="radio" id="HTML" name="fav_language" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="radio" id="CSS" name="fav_language" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="JavaScript" name="fav_language" value="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+    </body>
+</html>
